@@ -1,7 +1,6 @@
-/* Bootstrap is now included for professional styles */
-/* You can still add your own custom styles below */
+/* This file adds styles to your website to make it look nice */
 
-/* Use a Michigan State green and white gradient background */
+/* Set the background color and font for the whole page */
 body {
   background: linear-gradient(135deg, #e6ffe6 0%, #ffffff 100%);
   font-family: 'Segoe UI', 'Arial', sans-serif; /* Modern, friendly font */
@@ -9,12 +8,12 @@ body {
   padding: 0;
 }
 
-/* Michigan State green for all main green elements */
+/* Define a custom color for Michigan State green */
 :root {
   --msu-green: #18453b; /* Michigan State dark green */
 }
 
-/* Header with Michigan State green */
+/* Style the header at the top of the page */
 header {
   background-color: var(--msu-green);
   color: #fff;
@@ -27,7 +26,7 @@ header {
   border-bottom: 4px solid #111; /* Clean, bold border */
 }
 
-/* Navigation bar: Michigan State green and white */
+/* Style the navigation bar (menu) */
 .navbar {
   background: var(--msu-green);
   display: flex;
@@ -59,7 +58,7 @@ header {
   transform: translateY(-2px) scale(1.07);
 }
 
-/* Profile image: Michigan State green border */
+/* Style the main profile image on the home page */
 .profile-img {
   width: 110px;
   height: 110px;
@@ -75,7 +74,7 @@ header {
   transform: scale(1.08) rotate(-2deg);
 }
 
-/* Spartan logo in the top right corner (not on home page) */
+/* Style the Spartan logo in the top right corner */
 .corner-logo {
   position: fixed;
   top: 16px;
@@ -90,7 +89,7 @@ header {
   border: 2px solid var(--msu-green);
 }
 
-/* Main page logo: Michigan State green border */
+/* Style the main logo on the home page */
 .main-logo {
   object-fit: contain;
   background: #fff;
@@ -104,7 +103,7 @@ header {
   margin-right: auto;
 }
 
-/* Main title with a subtle shadow and bold color */
+/* Style the main title in the header */
 header h1 {
   margin: 12px 0 7px 0;
   font-size: 2.3em;
@@ -113,7 +112,7 @@ header h1 {
   color: #fff;
 }
 
-/* Tagline: clean, slightly larger, and lighter */
+/* Style the tagline under your name */
 .tagline {
   font-size: 1.15em;
   margin-bottom: 0;
@@ -122,7 +121,7 @@ header h1 {
   font-weight: 400;
 }
 
-/* Sections: Michigan State green accent border */
+/* Style each section (like About, Skills, Projects) */
 section {
   background: #fff;
   max-width: 540px;
@@ -138,7 +137,7 @@ section:hover {
   transform: translateY(-2px) scale(1.01);
 }
 
-/* Section headings: Michigan State green, bold, and clean underline */
+/* Style the headings inside each section */
 section h2 {
   color: var(--msu-green);
   border-bottom: 3px solid #111;
@@ -150,7 +149,7 @@ section h2 {
   font-weight: 700;
 }
 
-/* List styles: black text, modern spacing */
+/* Style lists (like your skills or projects) */
 ul {
   padding-left: 24px;
   margin-top: 0;
@@ -164,7 +163,7 @@ ul li {
   font-family: inherit;
 }
 
-/* Links: Michigan State green, bold, underline, and smooth hover */
+/* Style all links on the page */
 a {
   color: var(--msu-green);
   text-decoration: underline;
@@ -182,7 +181,7 @@ a:hover {
   transform: scale(1.05);
 }
 
-/* Footer: clean and Michigan State green accent */
+/* Style the footer at the bottom of the page */
 footer {
   text-align: center;
   color: #222;
